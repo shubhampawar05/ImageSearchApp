@@ -61,7 +61,8 @@ function updatefuction(parsedResponse){
       btnshow.innerText = 'Show More';
       btnshow.addEventListener('click', ()=> showMore())
       imgContainer.append(btnshow)
-     
+
+    //  document.querySelector("input").value = '';
     };
 
 
